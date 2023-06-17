@@ -1,2 +1,2 @@
 # cperccli
-A Python  CLI Library for Dell PowerEdge RAID Controller
+A Python  PERCCLI Wrapper for Dell PowerEdge RAID Controller
