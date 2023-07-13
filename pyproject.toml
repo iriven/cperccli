@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel", "twine"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cperccli"
+version = "1.0.1"
+authors = [
+    { name="Alfred TCHONDJO", email="iriven@yahoo.fr" },
+]
+description = "cperccli is a python wrapper for DELL PERC"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",   
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Unix",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/iriven/cperccli"
+"Bug Tracker" = "https://github.com/iriven/cperccli/issues"
